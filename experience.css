@@ -1,0 +1,85 @@
+header{
+    background-color: rgb(253, 253, 253); 
+    height: 120px;
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+#corpo{
+
+    height: 837px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+*{margin: 0;
+box-sizing: border-box;}
+
+li{
+   
+    display: flex;
+    font-size: 20px;
+
+}
+
+#cabecalho {
+    display: flex;
+    color: black;
+    justify-content: space-between;       
+    width: 20%;
+    padding: 0;
+    
+}
+img {height: 170px;
+}
+
+body{margin: 0;
+    background-color: #1C292C;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+#cabecalho a{ color: black;
+    text-decoration: none;}
+    
+    #selecionada{
+        color: rgb(0, 168, 146);
+    }
+
+    h1 {
+        display: flex;
+        color: rgb(255, 255, 255);
+        justify-content: space-between;       
+        width: 22%;
+        padding: 0;
+       margin-left: 6%;
+       margin-top: 10%;
+    }
+
+    h2 {
+        display: flex;
+        color: rgb(255, 255, 255);
+        justify-content: space-between;       
+        width: 22%;
+        padding: 0;
+       margin-left: 6%;
+       margin-top: 2%;
+       font-size: 300%;
+    }
+    #listaHAB{
+        margin-top: 200px;
+        margin-left: 4%;
+  
+
+
+    }
+    
+    #topicos{
+        color: white;
+        font-size: 50px;
+       
+    }
